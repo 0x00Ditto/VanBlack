@@ -1,3 +1,4 @@
+![VanBlack Logo](./assets/favanblack.svg)
 # VanBlack
 Projet pour [ton site](https://0x00ditto.github.io/VanBlack/).
 
