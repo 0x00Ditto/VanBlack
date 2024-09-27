@@ -226,12 +226,12 @@ module.exports = {
             transformOrigin: "top",
           },
         },
+        plugins: [
+          require("@tailwindcss/typography"),
+          require("@tailwindcss/forms"),
+          require("tailwindcss-animated"),
+        ],
       },
     },
-    plugins: [
-      require("@tailwindcss/typography"),
-      require("@tailwindcss/forms"),
-      require("tailwindcss-animated"),
-    ],
   },
 };
