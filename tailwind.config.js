@@ -1,6 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./src/**/*.{html,js}",
+    './src/team.html',
+  ],
   theme: {
     extend: {
       animationDelay: {
@@ -208,8 +210,9 @@ module.exports = {
       },
       },
     },
-      plugins: {
-        tailwindcss: {},
-        autoprefixer: {},
-      },
+    plugins: [
+        require('tailwindcss-animated'),
+        require('tailwindcss'),
+        require('autoprefixer'),
+      ],
     };
