@@ -1,6 +1,5 @@
 ![VanBlack Logo](./assets/test.png)
 # VanBlack
-Projet pour [ton site](https://0x00ditto.github.io/VanBlack/).
 
 ## Description
 
